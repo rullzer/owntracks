@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<info>
+	<id>owntracks</id>
+	<name>OwnTracks</name>
+	<description>
+		OwnTracks HTTP backend
+	</description>
+	<licence>AGPL</licence>
+	<author>Roeland Jago Douma</author>
+	<version>0.0.1</version>
+	<namespace>OwnTracks</namespace>
+	<dependencies>
+		<nextcloud min-version="13" max-version="14" />
+	</dependencies>
+</info>
