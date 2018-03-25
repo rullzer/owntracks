@@ -31,7 +31,7 @@ use OCP\AppFramework\Db\DoesNotExistException;
 use OCP\AppFramework\Http\DataResponse;
 use OCP\IRequest;
 
-class APIController extends \OCP\AppFramework\ApiController {
+class ApiController extends \OCP\AppFramework\ApiController {
 
 	/** @var LocationMapper */
 	protected $locationMapper;
