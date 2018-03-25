@@ -50,6 +50,7 @@ class ApiController extends \OCP\AppFramework\ApiController {
 		parent::__construct($appName, $request, 'POST');
 
 		$this->locationMapper = $locationMapper;
+		$this->liveShareMapper = $liveShareMapper;
 		$this->uid = $userId;
 	}
 
